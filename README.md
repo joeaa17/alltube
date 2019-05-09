@@ -126,7 +126,7 @@ server {
                 fastcgi_intercept_errors off;
 
                 fastcgi_buffer_size 16k;
-                fastcgi_buffers 4 16k;
+                fastcgi_buffers 4444 16k;
 
                 include fastcgi_params;
         }
